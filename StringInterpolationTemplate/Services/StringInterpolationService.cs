@@ -85,6 +85,5 @@ public class StringInterpolationService : IStringInterpolationService
         var day = 2023;
         return$"{Convert.ToString(day, 16).ToUpper()}";
     }
-
     //2.2019.01.22
 }
